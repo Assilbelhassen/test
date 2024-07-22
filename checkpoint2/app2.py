@@ -10,7 +10,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 
 # Load the dataset
-file_path =  r'C:\Users\User\Downloads\Financial_inclusion_dataset.csv'  
+file_path =  '/workspace/test/Financial_inclusion_dataset.csv'  
 data = pd.read_csv(file_path)
 
 # Display general information about the dataset
